@@ -1,0 +1,6 @@
+version: '2'
+services:
+  cachetazo:
+    build: .
+    volumes:
+      - .:/usr/src/app
